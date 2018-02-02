@@ -31,7 +31,7 @@ public class CertificateController {
     public String getCertificatePDF(@ModelAttribute ModelMap map, @Valid Certificate certificate, BindingResult result){
 
         if (result.hasErrors()){
-            return "redirect:/home";
+            return "redirect:/";
         }
 
         try {
