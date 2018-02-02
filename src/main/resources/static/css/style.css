@@ -1,0 +1,25 @@
+body {
+	background-color: #2B2B2B;
+}
+
+.content {
+	margin-top: 5%;
+	margin-left: 20%;
+    margin-right: 20%;
+}
+
+.background {
+	background-color: #686a6b;
+
+}
+
+
+#header {
+	    color: #629755;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+.text-color {
+	color: #629755;
+}
