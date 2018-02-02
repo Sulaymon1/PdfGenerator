@@ -26,7 +26,7 @@
 </nav>
 <div class="container">
     <div class="content text-color">
-        <form action="/home" method="post">
+        <form action="/" method="post">
             <div class="row">
                 <div class="col">
                     <input type="text" class="form-control" placeholder="First name" name="name">
