@@ -13,7 +13,7 @@ import java.net.URISyntaxException;
 import java.util.Calendar;
 
 public class PdfGenerator {
-    public static final String BACKGROUND_IMAGE = "background.jpg";
+    public static final String BACKGROUND_IMAGE = "src/main/resources/background.jpg";
     public static final String DEST = "src/main/resources/results/certificate.pdf";
     public static final String[] MONTHS = new String[]{"janeiro", "fevereiro", "março", "abril",
             "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"};
