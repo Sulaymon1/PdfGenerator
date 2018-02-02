@@ -22,12 +22,12 @@ public class CertificateController {
     @Autowired
     private CertificateService service;
 
-    @GetMapping("/home")
+    @GetMapping("/")
     public String getHome(){
         return "home";
     }
 
-    @PostMapping("/home")
+    @PostMapping("/")
     public String getCertificatePDF(@ModelAttribute ModelMap map, @Valid Certificate certificate, BindingResult result){
 
         if (result.hasErrors()){
